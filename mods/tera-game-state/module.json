@@ -3,5 +3,5 @@
     "author": "Caali",
     "description": "Tracks the game's current state and provides a high-level API for developers to base their mods on.",
     "version": "1.0",
-    "servers": ["https://emilia.menmastera.com/tera-toolbox/mods/tera-game-state/"]
+    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/tera-game-state/"]
 }

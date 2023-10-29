@@ -9,6 +9,6 @@
     },
     "author": "SaltyMonkey",
     "description": "FPS Manager is modern and extremely customizable module for Tera Toolbox which can help to solve annoyance by some ingame messages and fps drops.",
-    "servers": ["https://emilia.menmastera.com/tera-toolbox/mods/fps-manager/"],
+    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/fps-manager/"],
     "conflicts": ["fps-utils"]
 }

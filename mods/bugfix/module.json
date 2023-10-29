@@ -7,6 +7,6 @@
         "cliName": "Bugfix",
         "guiName": "Bugfix"
     },
-    "servers": ["https://emilia.menmastera.com/tera-toolbox/mods/bugfix/"],
+    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/bugfix/"],
     "conflicts": ["swim-fix", "chat-sanitizer"]
 }

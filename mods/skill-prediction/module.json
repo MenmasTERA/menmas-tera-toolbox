@@ -9,6 +9,6 @@
         "settingsFile": "./settings.json",
         "settingsMigrator": "./migration.js"
     },
-    "servers": ["https://emilia.menmastera.com/tera-toolbox/mods/skill-prediction/"],
+    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/skill-prediction/"],
     "conflicts": ["zsync", "aa-zsync","cooldowns","cooldowns-master","fastfire","fastfire-master","fast-fire","fast-fire-master","lockons","lockons-master","lockons-light","lockons-light-master","ping-compensation","ping-remover","skill-prediction-master","skill-prediction-plus"]
 }

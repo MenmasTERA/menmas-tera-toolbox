@@ -10,5 +10,5 @@
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://emilia.menmastera.com/tera-toolbox/mods/command/"]
+    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/command/"]
 }
