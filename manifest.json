@@ -38,7 +38,7 @@
     "bin/proxy.js": "c234e8b65048b95fe68c153bd5f9f3790f7c2faf144ee38a58898177984b2dcd",
     "bin/standalone-injector.js": "fefcc284f89e106e21c54cc6bc6d461c112d4691798b1ec3dbec56ec7dd17808",
     "bin/update-electron.js": "088e9c296134177205c27110b123392800bbac05b221ed06ad771db9413722f8",
-    "bin/update-self.js": "8072f9062ce9a8902f92856de193d025cbad0e2b86e8b98ddf1f1468d2f4e191",
+    "bin/update-self.js": "a35c074539508ab97987d011e97d79f101ec72bfb6c5e139bbfb446fd7c56e28",
     "bin/update.js": "d262bc45fc0e0da84e4d61eade574a2f245ab4754556a45afeda7960aeb08c98",
     "bin/utils.js": "18c8bb20f1939cc120c04a7c9cdb8ae94bb521998dfbdfdc74760563e6a08510",
     "data/data.json": "178bc144d0a0dbc966770bf46b765100821184dd71f5ed73a39443b0a58cc091",
