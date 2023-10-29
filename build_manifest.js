@@ -17,7 +17,7 @@ function walk(dir) {
 		} else if(!['build_manifest.js', 'manifest.json', 'config.json'].includes(fileName)) {
 			console.log(`Reading file ${file}...`);
 			let data = fs.readFileSync(file);
-			manifest.files[file.replace(__dirname, '')] = crypto.createHash('sha256').update(data).digest('hex');
+			manifest.files[file.replace(__dirname, '').replaceAll('\\', '/')] = crypto.createHash('sha256').update(data).digest('hex');
 		}
 	}
 	return entries;
