@@ -279,7 +279,7 @@ p {
 }
 
 .scroller-small {
-	height: calc(100vh - 118px);
+	height: calc(100vh - 118px - 114px);
 	overflow-y: auto;
 }
 
