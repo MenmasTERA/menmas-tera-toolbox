@@ -279,8 +279,12 @@ p {
 }
 
 .scroller-small {
-	height: calc(100vh - 118px - 114px);
+	height: calc(100vh - 118px);
 	overflow-y: auto;
+}
+
+.mymods-list {
+	height: calc(100vh - 118px - 114px);
 }
 
 .scroller {
