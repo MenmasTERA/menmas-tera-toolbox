@@ -515,3 +515,9 @@ Input[type=checkbox]:checked{filter:hue-rotate(35deg);}
     display: block;
     margin-bottom: 5px;
 }
+
+.autoupdate-disabled-icon {
+	color: var(--mod-card-disabled-border-color);
+	margin-top: 2px;
+	margin-left: 3px;
+}
