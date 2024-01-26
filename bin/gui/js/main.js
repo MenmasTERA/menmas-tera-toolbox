@@ -360,7 +360,7 @@ jQuery(($) => {
 				<div  class="${headerClasses} noselect">
 					<details id="${headerId}" ${expandedModsSummary[modInfo.name] ? "open" : ""}>
 						<summary id="${summaryId}">
-								${modInfo.drmKey ? "<span class=\"mdi mdi-currency-usd\"></span>" : ""} ${displayName(modInfo)} ${modInfo.version ? `(${modInfo.version})` : ""}
+								${modInfo.drmKey ? "<span class=\"mdi mdi-currency-usd\"></span>" : ""} ${displayName(modInfo)} ${modInfo.version ? `(${modInfo.version})` : ""} ${modInfo.disableAutoUpdate ? "<span class=\"mdi mdi-download-off autoupdate-disabled-icon\"></span>" : ""}
 								<div class="spacer"></div>
 								${modInfo.author ? `by ${modInfo.author}` : ""} </summary>
 						<p>${modInfo.description ? modInfo.description : " "}</p>
