@@ -1,12 +1,12 @@
 {
     "name": "bugfix",
-    "author": "Caali / Pinkie Pie",
+    "author": "Menma / Foglio / Caali / Pinkie Pie",
     "description": "Collection of mods that fix some of the most severe client bugs in TERA.",
-    "version": "1.0",
+    "version": "1.1",
     "options": {
         "cliName": "Bugfix",
         "guiName": "Bugfix"
     },
-    "servers": ["https://downloads.mtdream.net/tera-toolbox/mods/bugfix/"],
+    "servers": ["https://raw.githubusercontent.com/MenmasTERA/bugfix/master/", "https://downloads.mtdream.net/tera-toolbox/mods/bugfix/"],
     "conflicts": ["swim-fix", "chat-sanitizer"]
 }
