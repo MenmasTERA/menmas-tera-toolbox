@@ -343,7 +343,7 @@ class TeraProxyGUI {
 		const guiRoot = path.join(__dirname, "gui");
 		const guiIcon = path.join(guiRoot, "/assets/icon.ico")
 		this.window = new BrowserWindow({
-			title: "TERA Toolbox (Menma\'s TERA)",
+			title: "MT: The Dream Toolbox",
 			width: config?.gui?.width || 1000,
 			height: config?.gui?.height || 650,
 			minWidth: 743,
@@ -386,7 +386,7 @@ class TeraProxyGUI {
 		
 		// Initialize tray icon
 		this.tray = new Tray(guiIcon);
-		this.tray.setToolTip("TERA Toolbox (Menma's TERA)");
+		this.tray.setToolTip("MT: The Dream Toolbox");
 		this.tray.setContextMenu(Menu.buildFromTemplate([
 			{
 				"label": mui.get("loader-gui/tray/quit"),

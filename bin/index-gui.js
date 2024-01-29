@@ -25,7 +25,7 @@ function showSplashScreen() {
 
         const { BrowserWindow } = require('electron');
         SplashScreen = new BrowserWindow({
-            title: 'TERA Toolbox (Menma\'s TERA)',
+            title: 'MT: The Dream Toolbox',
             width: 880,
             height: 500,
             minWidth: 880,
@@ -102,13 +102,13 @@ async function updateSelf() {
         setSplashScreenInfo(`Server ${serverIndex}`);
     });
     updater.on('check_fail', (serverIndex, e) => {
-        errors.push(`TERA Toolbox was unable to check for updates on server ${serverIndex}!\n${e}`);
+        errors.push(`MT: The Dream Toolbox was unable to check for updates on server ${serverIndex}!\n${e}`);
         console.log(`[update] Update check failed (Server: ${serverIndex}): ${e}`);
 
         setSplashScreenCaption(`Update check failed (server ${serverIndex})!`);
     });
     updater.on('check_fail_all', () => {
-        errors.push(`TERA Toolbox was unable to check for updates using any server!\nThis is most likely an issue caused by your internet connection or your system configuration.`);
+        errors.push(`MT: The Dream Toolbox was unable to check for updates using any server!\nThis is most likely an issue caused by your internet connection or your system configuration.`);
         console.log('[update] Update check failed');
 
         setSplashScreenCaption('Update check failed!');
@@ -162,7 +162,7 @@ async function updateSelf() {
         console.log(`[update] - Error installing ${relpath}: ${e}`);
         if (relpath.startsWith('node_modules/tera-client-interface/scanner/')) {
             console.log('[update] - Your anti-virus software most likely falsely detected it to be a virus.');
-            console.log('[update] - Please whitelist TERA Toolbox in your anti-virus!');
+            console.log('[update] - Please whitelist MT: The Dream Toolbox in your anti-virus!');
             console.log(`[update] - For further information, check the #toolbox-faq channel in ${DiscordURL}!`);
         } else if (relpath === 'node_modules/tera-client-interface/tera-client-interface.dll') {
             console.log('[update] - This is most likely caused by an instance of the game that is still running.');
@@ -173,7 +173,7 @@ async function updateSelf() {
         setSplashScreenInfo(relpath);
 
         if (relpath.startsWith('node_modules/tera-client-interface/scanner/'))
-            errors.push(`Unable to install "${relpath}"!\n${e}\n\nYour anti-virus software most likely falsely detected TERA Toolbox to be a virus.\nPlease whitelist it!`);
+            errors.push(`Unable to install "${relpath}"!\n${e}\n\nYour anti-virus software most likely falsely detected MT: The Dream Toolbox to be a virus.\nPlease whitelist it!`);
         else if (relpath === 'node_modules/tera-client-interface/tera-client-interface.dll')
             errors.push(`Unable to install "${relpath}"!\n${e}\n\nThis is most likely caused by an instance of the game client that is still running.\nClose all game clients or restart your computer, then try again!`);
         else
@@ -218,7 +218,7 @@ function main() {
         // Perform self-update
         updateSelf().then(errors => {
             if (errors && errors.length > 0) {
-                let errmsg = `TERA Toolbox was unable to update itself. Please consult the #toolbox-faq and #help channels in ${DiscordURL} for further information.\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n\n------------------------------\n`;
+                let errmsg = `MT: The Dream Toolbox was unable to update itself. Please consult the #help channels in ${DiscordURL} for further information.\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n\n------------------------------\n`;
                 errmsg += errors.join('\n------------------------------\n');
                 errmsg += '\n------------------------------\n\nThe program will now be terminated.';
 
@@ -239,7 +239,7 @@ function main() {
                         dialogAndQuit({
                             type: 'error',
                             title: 'Electron update error!',
-                            message: `TERA Toolbox was unable to update Electron. Please ask in ${DiscordURL} for help!\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n${e}\n\nThe program will now be terminated.`
+                            message: `MT: The Dream Toolbox was unable to update Electron. Please ask in ${DiscordURL} for help!\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n${e}\n\nThe program will now be terminated.`
                         });
                     });
                 } else {
@@ -250,7 +250,7 @@ function main() {
             dialogAndQuit({
                 type: 'error',
                 title: 'Self-update error!',
-                message: `TERA Toolbox was unable to update itself. Please ask in ${DiscordURL} for help!\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n${e}\n\nThe program will now be terminated.`
+                message: `MT: The Dream Toolbox was unable to update itself. Please ask in ${DiscordURL} for help!\n>> MAKE SURE TO READ THE CHANNEL DESCRIPTION FIRST <<\n\nThe full error message is:\n${e}\n\nThe program will now be terminated.`
             });
         });
     }

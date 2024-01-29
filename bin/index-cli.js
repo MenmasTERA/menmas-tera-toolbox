@@ -33,7 +33,7 @@ async function updateSelf() {
         console.log(`[update] - Error installing ${relpath}: ${e}`);
         if (relpath.startsWith('node_modules/tera-client-interface/scanner/')) {
             console.log('[update] - Your anti-virus software most likely falsely detected it to be a virus.');
-            console.log('[update] - Please whitelist TERA Toolbox in your anti-virus!');
+            console.log('[update] - Please whitelist MT: The Dream Toolbox in your anti-virus!');
             console.log(`[update] - For further information, check the #toolbox-faq channel in ${DiscordURL}!`);
         } else if (relpath === 'node_modules/tera-client-interface/tera-client-interface.dll') {
             console.log('[update] - This is most likely caused by an instance of the game that is still running.');
