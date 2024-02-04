@@ -41,7 +41,7 @@
     "bin/update-self.js": "a35c074539508ab97987d011e97d79f101ec72bfb6c5e139bbfb446fd7c56e28",
     "bin/update.js": "d262bc45fc0e0da84e4d61eade574a2f245ab4754556a45afeda7960aeb08c98",
     "bin/utils.js": "18c8bb20f1939cc120c04a7c9cdb8ae94bb521998dfbdfdc74760563e6a08510",
-    "data/data.json": "d41eb6d776cfa744013703a0cf53d38abc86e8ac17e446ff27a5bb2b5c713602",
+    "data/data.json": "bef2cbf56837e7db68884873250dd90e5d4940bd5f6df598b261a72560ca8ba1",
     "data/definitions/README.md": "3bea1b2efa503a07a01cdcd63945b61e59a0426a2790b0a32605e8362630400a",
     "data/opcodes/README.md": "ab823a0a954e36e8a0788cccca229eb3fa205b81450bb4896712650acd0a8378",
     "doc/main.md": "2bfb9f13fc12d45465f316168d403195776e9781c93baacc523ddfe56c8c1ac1",
