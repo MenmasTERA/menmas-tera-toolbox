@@ -81,7 +81,7 @@
     "node_modules/tera-data-parser/lib/protocol/types/skillid.js": "2410beda1d4a8327be64048a61587625715b6f1c3dc427e239115c8eee4407e2",
     "node_modules/tera-data-parser/package.json": "ebd3b30759d1e37ca05962119dc162714aeee8b563b0556a72f31eabb545281e",
     "node_modules/tera-data-parser/README.md": "7de0f5933147e77e511159bdbac4b9f83d0edb54f1d3bafad01dd655159302bf",
-    "node_modules/tera-mod-management/index.js": "35cabef543a6d3491e96b15522a25469d7e110cfcbbc80ac3a3fa02fe338138e",
+    "node_modules/tera-mod-management/index.js": "b01b26d08a10396726323abbb635e7ec3619a03a40b5671bccc0f671540e55b7",
     "node_modules/tera-mod-management/README.md": "78d0d079a19fd985591e78babbe5d4eb8d7f9dff17a44f6b91da6e135b865dc2",
     "node_modules/tera-mod-ui/global.js": "cc9ea4210ff3ad8d0aacb77cc9891d2ff5ea30fc34753b35be4fd3403d089634",
     "node_modules/tera-mod-ui/host.js": "a9588bf620530b595cdbe4bc04b30c9503ee6fa34708c31059421c4f11dccc7b",
